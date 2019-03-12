@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: url('http://s1.picswalls.com/wallpapers/2015/11/21/beautiful-league-of-legends-wallpaper_111229615_289.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    color: gold;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: gold;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+p, button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+p {
+    color: gold;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    margin-left: 45%;
+    text-shadow: -2px 0 gold, 0 2px gold, 2px 0 gold, 0 -2px gold;
+}
