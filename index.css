@@ -54,6 +54,16 @@ ul {
 }
 
 li {
+    font-size: 30px;
     margin-left: 45%;
-    text-shadow: -2px 0 gold, 0 2px gold, 2px 0 gold, 0 -2px gold;
+    color: gold;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    padding-top: 2%;
+    padding-right: 2%;
 }
