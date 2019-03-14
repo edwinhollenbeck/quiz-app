@@ -88,10 +88,10 @@ function questionTemplate() {
     return `<form id='questionForm'>    
     <p>${questions[questionNumber].question}</p><br>
     <ul>
-        <li><input type='radio' name='answer' class='answer' value='${questions[questionNumber].answer1}' required><span>${questions[questionNumber].answer1}</span></li>
-        <li><input type='radio' name='answer' class='answer' value='${questions[questionNumber].answer2}' required><span>${questions[questionNumber].answer2}</span></li>
-        <li><input type='radio' name='answer' class='answer' value='${questions[questionNumber].answer3}' required><span>${questions[questionNumber].answer3}</span></li>
-        <li><input type='radio' name='answer' class='answer' value='${questions[questionNumber].answer4}' required><span>${questions[questionNumber].answer4}</span></li>
+        <label class='radioButton'><li><input type='radio' name='answer' class='answer' value='${questions[questionNumber].answer1}' required><span>${questions[questionNumber].answer1}</span></li></label>
+        <label class='radioButton'><li><input type='radio' name='answer' class='answer' value='${questions[questionNumber].answer2}' required><span>${questions[questionNumber].answer2}</span></li></label>
+        <label class='radioButton'><li><input type='radio' name='answer' class='answer' value='${questions[questionNumber].answer3}' required><span>${questions[questionNumber].answer3}</span></li></label>
+        <label class='radioButton'><li><input type='radio' name='answer' class='answer' value='${questions[questionNumber].answer4}' required><span>${questions[questionNumber].answer4}</span></li></label>
     </ul>
     <button id='check'>Check</button>
 </form>
