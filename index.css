@@ -10,6 +10,11 @@ html {
     background-size: cover;
 }
 
+body {
+    max-height: 100vh;
+    width: 100%;
+}
+
 h1 {
     display: flex;
     justify-content: center;
@@ -44,20 +49,26 @@ p, button {
 p {
     color: gold;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 50px;
+    margin-bottom: 5%;
 }
 
 ul {
     list-style: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin: 0px;
     padding: 0px;
 }
 
 li {
     font-size: 30px;
-    margin-left: 45%;
     color: gold;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    margin-left: 15%;
+    margin-bottom: 2%;
+    display: inline-block;
 }
 
 header {
@@ -66,4 +77,8 @@ header {
     text-align: right;
     padding-top: 2%;
     padding-right: 2%;
+}
+
+header li {
+    margin-left: 0px;
 }
