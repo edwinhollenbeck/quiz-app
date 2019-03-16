@@ -124,7 +124,7 @@ function ifAnswerIsCorrect() {
 function ifAnswerIsWrong() {
     $('#container').html(`
       <P>Wrong</p>
-      <p>Correct answer is ${questions[questionNumber].correctAnswer}</p>
+      <p>Correct answer is: ${questions[questionNumber].correctAnswer}</p>
       <button class='nextButton'>Next</button>
     `)
 };

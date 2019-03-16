@@ -47,6 +47,17 @@ p, button {
     margin-bottom: auto;
 }
 
+button {
+    width: 100px;
+    height: 40px;
+    background: gold;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
 p {
     color: gold;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
