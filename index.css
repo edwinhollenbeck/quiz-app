@@ -94,7 +94,6 @@ input {
 .radioButton {
     border: 2px black solid;
     padding: 5px;
-    padding-top: 20px;
     background:rgba(255,255,255,0.5);
     margin-left: 15%;
     margin-right: 15%;
@@ -109,6 +108,15 @@ form > p {
     border: 2px black solid;
     background:rgba(255,255,255,0.5);
     padding: 5px;
+}
+
+input {
+    width: 20px;
+    height: 20px;
+}
+
+label > li {
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 1024px) {
